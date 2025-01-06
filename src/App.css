@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-image: url("/public/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#top {
+    display: flex;
+    justify-content: start;
+}
+
+#solar {
+    width: 35%;
+    z-index: 1;
+    margin-bottom: -82px;
+    margin-left: -12px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+    /* width: 100vw; */
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu {
+    width: 60px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(1, 1, 54, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* background: #fff; */
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+#icons {
+    width: 22px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#icons:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 40%;
+    padding: 7px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    width: 25px;
+    cursor: pointer;
+}
+
+#block-first {
+    width: 25%;
+    height: 480px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(1, 1, 54, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#block-mid {
+    width: 35%;
+    height: 480px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(1, 1, 54, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* background: #fff; */
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+}
+
+#block-last {
+    width: 25%;
+    height: 480px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(1, 1, 54, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* background: #fff; */
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#card1 {
+    background: radial-gradient(
+        circle,
+        rgba(173, 185, 221, 0.25),
+        rgba(79, 76, 69, 0.25) 80%,
+        rgba(60, 56, 56, 0.6) 100%
+    );
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    border-radius: 14px;
+    width: 85%;
+    height: 26%;
+    padding: 4px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#title-one {
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+}
+
+#desc-one {
+    text-align: start;
+    font-size: 12px;
+}
+
+#btn-one {
+    font-weight: bold;
+}
+
+#content-one {
+    width: 85%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+#planet_small-one {
+    width: 110px;
+    cursor: pointer;
+}
+
+#card2 {
+    background: radial-gradient(
+        circle,
+        rgba(162, 160, 128, 0.6) 0%,
+        rgba(79, 76, 69, 0.25) 80%,
+        rgba(60, 56, 56, 0.6) 100%
+    );
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    border-radius: 14px;
+    width: 85%;
+    height: 26%;
+    padding: 4px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#title-two {
+    color: rgb(236, 157, 11);
+    font-weight: bold;
+}
+
+#desc-two {
+    text-align: start;
+    font-size: 12px;
+}
+
+#btn-two {
+    font-weight: bold;
+}
+
+#content-two {
+    width: 85%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+#planet_small-two {
+    width: 150px;
+    cursor: pointer;
+}
+
+#card3 {
+    background: radial-gradient(
+        circle,
+        rgba(240, 168, 176, 0.25),
+        rgba(79, 76, 69, 0.25) 80%,
+        rgba(60, 56, 56, 0.6) 100%
+    );
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 14px;
+    width: 85%;
+    height: 26%;
+    padding: 4px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+#title-three {
+    color: rgb(205, 31, 15);
+    font-weight: bold;
+}
+
+#desc-three {
+    text-align: start;
+    font-size: 12px;
+}
+
+#btn-three {
+    font-weight: bold;
+}
+
+#content-three {
+    width: 85%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+#planet_small-three {
+    width: 100px;
+    cursor: pointer;
+}
+
+#earth {
+    width: 250px;
+    /* height: 200px; */
+    cursor: pointer;
+}
+
+#mars {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #ffffff38;
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    gap: 1rem;
+    /* width: 90%;
+    max-width: 800px; */
+
+    background: radial-gradient(
+        circle,
+        rgba(240, 168, 176, 0.25),
+        rgba(79, 76, 69, 0.25) 80%,
+        rgba(60, 56, 56, 0.6) 100%
+    );
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 14px;
+    width: 85%;
+    height: 26%;
+    padding: 4px;
+    padding-left: 10px;
+    /* display: flex;
+    align-items: center; */
+}
+
+#top-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#circle-div {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #0f53ba42, #4fc2f745);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+#rectangular-div {
+    flex: 1;
+    margin-left: 1rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, #1b5e1f3e, #66bb6a39);
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+#mid-sec {
+    background: linear-gradient(135deg, #ff910043, #ffa82648);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+#bottom-sec {
+    display: flex;
+    gap: 1rem;
+}
+
+#bottom-div {
+    flex: 1;
+    background: linear-gradient(135deg, #8d24aa3f, #ba68c845);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
