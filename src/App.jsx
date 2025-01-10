@@ -29,8 +29,7 @@ function App() {
                                 Earth is rounded into an ellipsoid with a
                                 circumference of about 40,000 km. It is the
                                 densest planet in the Solar System. Of the four
-                                rocky planets, it is the largest and most
-                                massive...
+                                rocky planets, it is the largest...
                             </div>
                             <div id="button-one">Explore</div>
                         </div>
@@ -50,11 +49,9 @@ function App() {
                                 Sun
                             </div>
                             <div id="desc-two">
-                                Earth is rounded into an ellipsoid with a
-                                circumference of about 40,000 km. It is the
-                                densest planet in the Solar System. Of the four
-                                rocky planets, it is the largest and most
-                                massive...
+                                The Sun orbits the Galactic Center at a distance
+                                of 24,000 - 28,000 light-years. Its diameter is
+                                about 109 times that of Earth...
                             </div>
                             <div id="button-two">Explore</div>
                         </div>
@@ -71,11 +68,11 @@ function App() {
                                 Mars
                             </div>
                             <div id="desc-three">
-                                Earth is rounded into an ellipsoid with a
-                                circumference of about 40,000 km. It is the
-                                densest planet in the Solar System. Of the four
-                                rocky planets, it is the largest and most
-                                massive...
+                                The surface of Mars is orange-red because it is
+                                covered in iron(III) oxide dust, giving it the
+                                nickname &quot;the Red Planet&quot;. Mars is
+                                among the brightest objects in Earth&apos;s
+                                sky...
                             </div>
                             <div id="button-three">Explore</div>
                         </div>
@@ -95,10 +92,46 @@ function App() {
             <div id="box2">hi</div>
             <div id="box3">hi</div>
             <div id="box4">hi</div> */}
+                    {/* <div className="info-box">
+                        <div className="planet"></div>
+                        <div className="left-text">
+                            <h3>Moon</h3>
+                            <p>
+                                The Moon is Earth&apos;s one and only natural
+                                satellite.
+                            </p>
+                            <p>Distance: 384,400 km</p>
+                            <a href="#" style="color: #00b4ff;">
+                                View more...
+                            </a>
+                        </div>
+                        <div className="right-text">
+                            <h3>International Space Station</h3>
+                            <p>
+                                The I.S.S. is a large space station assembled
+                                and maintained in low Earth orbit.
+                            </p>
+                            <a href="#" style="color: #00b4ff;">
+                                View more...
+                            </a>
+                        </div>
+                        <div className="bottom-text">
+                            <h3>Earth: Pale Blue Dot</h3>
+                            <p>Distance from Sun: 149.5 million km</p>
+                            <p>Temperature Range: -89.2°C to 56.7°C</p>
+                            <p>Earth&apos;s Mass: 5.972 × 10²⁴ kg</p>
+                            <a href="#" className="btn">
+                                3D View
+                            </a>
+                        </div>
+                    </div> */}
                 </div>
                 <div id="block-last">
                     <div id="top-sec">
-                        <div id="circle-div">71%</div>
+                        <div id="water-sec">
+                            <div id="water-per">Water Percentage</div>
+                            <div id="circle-div">71%</div>
+                        </div>
                         <div id="rectangular-div">
                             <h2>8.7 Million Estimated Species</h2>
                             <div id="chart">[Chart Content]</div>
@@ -107,12 +140,36 @@ function App() {
                     <hr />
                     <div id="mid-sec">
                         <h3>Avg. Radiation</h3>
-                        <p>2.4 mSv per year</p>
+                        <p className="p-14">2.4 mSv per year</p>
                     </div>
                     <hr />
-                    <div id="bottom-sec">
-                        <div id="bottom-div">Earths Sounds: Waves</div>
-                        <div id="bottom-div">Earths Sounds: Nature</div>
+                    <div id="sound-sec">
+                        <div>
+                            <img src="/public/Sound Icon.png" alt="sound" />
+                        </div>
+                        <div className="text-red-500">
+                            <div>Sound in Earth</div>
+                            <div className="playing">
+                                <div className="greenline line-1"></div>
+                                <div className="greenline line-2"></div>
+                                <div className="greenline line-3"></div>
+                                <div className="greenline line-4"></div>
+                                <div className="greenline line-5"></div>
+                                <div className="greenline line-1"></div>
+                                <div className="greenline line-2"></div>
+                                <div className="greenline line-3"></div>
+                                <div className="greenline line-4"></div>
+                                <div className="greenline line-5"></div>
+                                <div className="greenline line-1"></div>
+                                <div className="greenline line-2"></div>
+                                <div className="greenline line-3"></div>
+                                <div className="greenline line-4"></div>
+                                <div className="greenline line-5"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="/public/Play Icon.png" alt="sound" />
+                        </div>
                     </div>
                 </div>
             </div>
