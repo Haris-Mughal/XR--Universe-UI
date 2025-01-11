@@ -6,22 +6,25 @@ function PlanetLast() {
                     <div id="water-per">Water Percentage</div>
                     <div id="circle-div">71%</div>
                 </div>
-                <div id="rectangular-div">
-                    <h2>8.7 Million Estimated Species</h2>
-                    <div id="chart">[Chart Content]</div>
+                <div className="rec-div">
+                    <div id="specie-text">8.7 Million Estimated Species</div>
+                    <img
+                        className="species-graph"
+                        src="/public/species Card.png"
+                        alt=""
+                    />
                 </div>
             </div>
             <hr />
             <div id="mid-sec">
-                <h3>Avg. Radiation</h3>
-                <p>2.4 mSv per year</p>
+                <img className="song-card" src="/public/Song Card.png" />
             </div>
             <hr />
             <div id="sound-sec">
                 <div>
                     <img src="/public/Sound Icon.png" alt="sound" />
                 </div>
-                <div>
+                <div className="sound-waves">
                     <div>Sound in Earth</div>
                     <div className="playing">
                         <div className="greenline line-1"></div>

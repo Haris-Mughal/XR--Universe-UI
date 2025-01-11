@@ -1,12 +1,3 @@
-/* .planet-block-one {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-} */
-
 #cards {
     display: flex;
     flex-direction: row;
@@ -44,7 +35,7 @@
 }
 
 #btn-one {
-    font-weight: bold;
+    background: rgb(0, 102, 255);
 }
 
 #content-one {
@@ -94,7 +85,7 @@
 }
 
 #btn-two {
-    font-weight: bold;
+    background: rgb(236, 157, 11);
 }
 
 #content-two {
@@ -135,7 +126,7 @@
     align-items: center;
 }
 #title-three {
-    color: rgb(205, 31, 15);
+    color: rgb(230, 34, 16);
     font-weight: bold;
 }
 
@@ -145,7 +136,7 @@
 }
 
 #btn-three {
-    font-weight: bold;
+    background: rgb(230, 34, 16);
 }
 
 #content-three {
@@ -166,10 +157,91 @@
     margin-top: -35px;
     object-position: 40% center;
 }
+#card4 {
+    background: radial-gradient(
+        circle,
+        rgba(203, 131, 30, 0.484),
+        rgba(79, 76, 69, 0.25) 80%,
+        rgba(60, 56, 56, 0.6) 100%
+    );
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.422);
+    width: 85%;
+    height: 26%;
+    padding: 4px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+#title-four {
+    color: rgb(240, 113, 9);
+    font-weight: bold;
+}
+
+#desc-four {
+    text-align: start;
+    font-size: 12px;
+}
+
+#btn-four {
+    background: rgb(240, 113, 9);
+}
+
+#content-four {
+    width: 85%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+#planet_small-four {
+    width: 180px;
+    cursor: pointer;
+    margin-right: -40px;
+    margin-top: -45px;
+    object-position: 40% center;
+}
+
+/* .explore {
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 15px;
+    color: white;
+    letter-spacing: 2px;
+} */
 
 #earth {
-    width: 250px;
+    width: 350px;
     cursor: pointer;
+    animation: rotate 90s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 #top-sec {
@@ -177,16 +249,22 @@
     justify-content: space-between;
     align-items: center;
     padding-inline: 5px;
+    gap: 15px;
 }
 
 #water-sec {
     gap: 8px;
 }
 
-#water-per {
+#water-per,
+#specie-text {
     color: rgb(0, 102, 255);
     font-weight: bold;
     text-shadow: 0 0 5px rgba(6, 11, 27, 0.7);
+}
+
+#water-per {
+    font-size: 13px;
 }
 
 #circle-div {
@@ -204,26 +282,19 @@
     box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
 }
 
-#rectangular-div {
-    flex: 1;
-    margin-left: 1rem;
-    padding: 1rem;
-    background: linear-gradient(135deg, #1b5e1f3e, #66bb6a39);
-    border-radius: 10px;
-    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+.rec-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
-#mid-sec {
-    background: linear-gradient(135deg, #ff910043, #ffa82648);
-    text-align: center;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+.species-graph {
+    width: 220px;
+}
+
+.song-card {
+    width: 100%;
+    height: 110px;
 }
 
 #sound-sec {
@@ -232,6 +303,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-inline: 1rem;
+    border-radius: 22px;
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 #bottom-div {
@@ -246,6 +322,14 @@
     -webkit-backdrop-filter: blur(4px);
 }
 
+.sound-waves {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .playing {
     display: flex;
     position: relative;
@@ -258,7 +342,7 @@
 .greenline {
     background-color: #1db954;
     height: 20px;
-    width: 5px;
+    width: 8px;
     position: relative;
     transform-origin: bottom;
 }

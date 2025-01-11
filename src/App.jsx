@@ -34,7 +34,7 @@ function App() {
                     <div className="feed-block-mid">
                         <FeedMid />
                     </div>
-                    <div className="block-last">
+                    <div className="feed-block-last">
                         <FeedLast />
                     </div>
                 </>
