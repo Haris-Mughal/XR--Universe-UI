@@ -47,7 +47,7 @@ function App() {
             <div id="top">
                 <img
                     id="solar"
-                    src="/public/Solar System.png"
+                    src="/Solar System.png"
                     alt="Solar System"
                 />
             </div>
@@ -55,31 +55,31 @@ function App() {
                 <div id="menu">
                     <img
                         id="icons"
-                        src="/public/Notification Icon.png"
+                        src="/Notification Icon.png"
                         alt="Notification"
                     />
                     <img
                         id="icons"
-                        src="/public/Planet Icon.png"
+                        src="/Planet Icon.png"
                         alt="Planets"
                         onClick={() => setActiveComponent("Planets")}
                     />
-                    <img id="icons" src="/public/Star Icon.png" alt="Star" />
+                    <img id="icons" src="/Star Icon.png" alt="Star" />
                     <img
                         id="icons"
-                        src="/public/Friends Icon.png"
+                        src="/Friends Icon.png"
                         alt="Feed"
                         onClick={() => setActiveComponent("Feed")}
                     />
-                    <img id="icons" src="/public/AI Icon.png" alt="AI" />
+                    <img id="icons" src="/AI Icon.png" alt="AI" />
                     <img
                         id="icons"
-                        src="/public/Headset Icon.png"
+                        src="/Headset Icon.png"
                         alt="Headset"
                     />
                     <img
                         id="icons"
-                        src="/public/Settings Icon.png"
+                        src="/Settings Icon.png"
                         alt="Settings"
                     />
                 </div>

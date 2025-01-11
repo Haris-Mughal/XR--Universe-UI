@@ -14,7 +14,7 @@ function PlanetFirst() {
                     </div>
                 </div>
                 <div>
-                    <img id="planet_small-one" src="/public/Planet-Earth.png" />
+                    <img id="planet_small-one" src="/Planet-Earth.png" />
                 </div>
             </div>
             <div id="card2">
@@ -30,7 +30,7 @@ function PlanetFirst() {
                     </div>
                 </div>
                 <div>
-                    <img id="planet_small-two" src="/public/Sun.png" />
+                    <img id="planet_small-two" src="/Sun.png" />
                 </div>
             </div>
             <div id="card3">
@@ -47,7 +47,7 @@ function PlanetFirst() {
                     </div>
                 </div>
                 <div>
-                    <img id="planet_small-three" src="/public/Mars.png" />
+                    <img id="planet_small-three" src="/Mars.png" />
                 </div>
             </div>
             <div id="card4">
@@ -55,15 +55,15 @@ function PlanetFirst() {
                     <div id="title-four">Saturn</div>
                     <div id="desc-four">
                         The planet has a bright and extensive system of rings,
-                        and mainly of ice particles, with a small amount
-                        of rocky debris...
+                        and mainly of ice particles, with a small amount of
+                        rocky debris...
                     </div>
                     <div className="explore" id="button-four">
                         EXPLORE
                     </div>
                 </div>
                 <div>
-                    <img id="planet_small-four" src="/public/Saturn.png" />
+                    <img id="planet_small-four" src="/Saturn.png" />
                 </div>
             </div>
         </>

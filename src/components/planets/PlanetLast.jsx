@@ -10,19 +10,19 @@ function PlanetLast() {
                     <div id="specie-text">8.7 Million Estimated Species</div>
                     <img
                         className="species-graph"
-                        src="/public/species Card.png"
+                        src="/species Card.png"
                         alt=""
                     />
                 </div>
             </div>
             <hr />
             <div id="mid-sec">
-                <img className="song-card" src="/public/Song Card.png" />
+                <img className="song-card" src="/Song Card.png" />
             </div>
             <hr />
             <div id="sound-sec">
                 <div>
-                    <img src="/public/Sound Icon.png" alt="sound" />
+                    <img src="/Sound Icon.png" alt="sound" />
                 </div>
                 <div className="sound-waves">
                     <div>Sound in Earth</div>
@@ -45,7 +45,7 @@ function PlanetLast() {
                     </div>
                 </div>
                 <div>
-                    <img src="/public/Play Icon.png" alt="sound" />
+                    <img src="/Play Icon.png" alt="sound" />
                 </div>
             </div>
         </>
