@@ -1,9 +1,4 @@
 function FeedMid() {
-    window.addEventListener("load", () => {
-        const container = document.querySelector(".feed-block-mid");
-        container.scrollTop = 0;
-    });
-
     return (
         <>
             <img className="feedPerson" src="/public/Feed Person.png" />
