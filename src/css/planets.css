@@ -1,0 +1,307 @@
+/* .planet-block-one {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+#card1 {
+    background: radial-gradient(
+        circle,
+        rgba(29, 76, 216, 0.515),
+        rgba(79, 76, 69, 0.25) 80%,
+        rgba(60, 56, 56, 0.6) 100%
+    );
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    border-radius: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.422);
+    width: 85%;
+    height: 26%;
+    padding: 4px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#title-one {
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+}
+
+#desc-one {
+    text-align: start;
+    font-size: 12px;
+}
+
+#btn-one {
+    font-weight: bold;
+}
+
+#content-one {
+    width: 85%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+#planet_small-one {
+    width: 150px;
+    cursor: pointer;
+    margin-right: -30px;
+    margin-top: -35px;
+}
+
+#card2 {
+    background: radial-gradient(
+        circle,
+        rgba(202, 190, 22, 0.467) 0%,
+        rgba(79, 76, 69, 0.25) 80%,
+        rgba(60, 56, 56, 0.6) 100%
+    );
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    border-radius: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.422);
+    width: 85%;
+    height: 26%;
+    padding: 4px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#title-two {
+    color: rgb(236, 157, 11);
+    font-weight: bold;
+}
+
+#desc-two {
+    text-align: start;
+    font-size: 12px;
+}
+
+#btn-two {
+    font-weight: bold;
+}
+
+#content-two {
+    width: 85%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+#planet_small-two {
+    width: 180px;
+    cursor: pointer;
+    margin-right: -40px;
+    margin-top: -35px;
+}
+
+#card3 {
+    background: radial-gradient(
+        circle,
+        rgba(203, 30, 50, 0.484),
+        rgba(79, 76, 69, 0.25) 80%,
+        rgba(60, 56, 56, 0.6) 100%
+    );
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.422);
+    width: 85%;
+    height: 26%;
+    padding: 4px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+#title-three {
+    color: rgb(205, 31, 15);
+    font-weight: bold;
+}
+
+#desc-three {
+    text-align: start;
+    font-size: 12px;
+}
+
+#btn-three {
+    font-weight: bold;
+}
+
+#content-three {
+    width: 85%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+#planet_small-three {
+    width: 120px;
+    cursor: pointer;
+    margin-right: -20px;
+    margin-top: -35px;
+    object-position: 40% center;
+}
+
+#earth {
+    width: 250px;
+    cursor: pointer;
+}
+
+#top-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5px;
+}
+
+#water-sec {
+    gap: 8px;
+}
+
+#water-per {
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(6, 11, 27, 0.7);
+}
+
+#circle-div {
+    width: 100px;
+    height: 100px;
+    background: url("/public/Water Percentage.png");
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(6, 11, 27, 0.7);
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+}
+
+#rectangular-div {
+    flex: 1;
+    margin-left: 1rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, #1b5e1f3e, #66bb6a39);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+#mid-sec {
+    background: linear-gradient(135deg, #ff910043, #ffa82648);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+#sound-sec {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottom-div {
+    flex: 1;
+    background: linear-gradient(135deg, #8d24aa3f, #ba68c845);
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.playing {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 1px;
+    width: 100%;
+    height: 20px;
+}
+
+.greenline {
+    background-color: #1db954;
+    height: 20px;
+    width: 5px;
+    position: relative;
+    transform-origin: bottom;
+}
+
+.line-1 {
+    animation: infinite playing 1s ease-in-out;
+    animation-delay: 0.2s;
+}
+
+.line-2 {
+    animation: infinite playing 1s ease-in-out;
+    animation-delay: 0.5s;
+}
+
+.line-3 {
+    animation: infinite playing 1s ease-in-out;
+    animation-delay: 0.6s;
+}
+
+.line-4 {
+    animation: infinite playing 1s ease-in-out;
+    animation-delay: 0s;
+}
+
+.line-5 {
+    animation: infinite playing 1s ease-in-out;
+    animation-delay: 0.4s;
+}
+
+@keyframes playing {
+    0% {
+        transform: scaleY(0.1);
+    }
+
+    33% {
+        transform: scaleY(0.6);
+    }
+
+    66% {
+        transform: scaleY(0.9);
+    }
+
+    100% {
+        transform: scaleY(0.1);
+    }
+}
