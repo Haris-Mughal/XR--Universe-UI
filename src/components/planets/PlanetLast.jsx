@@ -10,7 +10,7 @@ function PlanetLast() {
                     <div id="specie-text">8.7 Million Estimated Species</div>
                     <img
                         className="species-graph"
-                        src="/species Card.png"
+                        src="/Species Card.png"
                         alt=""
                     />
                 </div>
